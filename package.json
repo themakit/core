@@ -10,12 +10,18 @@
   "peerDependencies": {
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
-    "styled-components": "^6.0.0"
+    "styled-components": "^6.0.0",
+    "@themakit/theme": "^0.1.1"
   },
   "devDependencies": {
     "@types/node": "^22.14.0",
     "@types/react": "^18.0.0",
     "@types/styled-components": "^5.1.26",
     "typescript": "^5.3.0"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/",
+    "tag": "latest",
+    "access": "public"
   }
 }
